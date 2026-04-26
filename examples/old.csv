@@ -1,0 +1,11 @@
+customer_id,name,age,status,country,revenue,last_login
+1001,Ama Mensah,28,active,Ghana,1200.5,2026-04-20
+1002,Kofi Asare,34,active,Ghana,850.0,2026-04-19
+1003,Esi Boateng,29,inactive,Ghana,0.0,2026-03-01
+1004,Yaw Owusu,41,active,Nigeria,2300.75,2026-04-21
+1005,Akosua Antwi,31,active,Ghana,1500.0,2026-04-22
+1006,Kojo Mensimah,26,pending,Kenya,620.4,2026-04-18
+1007,Abena Osei,38,active,Ghana,980.1,2026-04-23
+1008,Fiifi Grant,45,inactive,Ghana,100.0,2026-01-11
+1009,Nana Addo,33,active,South Africa,3050.0,2026-04-24
+1010,Efua Badu,27,active,Ghana,740.55,2026-04-24

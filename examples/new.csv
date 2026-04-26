@@ -1,0 +1,12 @@
+customer_id,name,age,status,country,revenue,last_login,segment
+1001,Ama Mensah,28,active,Ghana,1350.0,2026-04-25,Gold
+1002,Kofi Asare,35,active,Ghana,850.0,2026-04-25,Silver
+1003,Esi Boateng,29,active,Ghana,120.0,2026-04-22,Bronze
+1004,Yaw Owusu,41,active,Nigeria,2300.75,2026-04-25,Gold
+1005,Akosua Antwi,31,active,Ghana,,2026-04-24,Silver
+1006,Kojo Mensimah,26,pending,Kenya,620.4,2026-04-18,Bronze
+1007,Abena Osei,38,inactive,Ghana,980.1,2026-04-10,Silver
+1009,Nana Addo,33,active,South Africa,3200.0,2026-04-25,Gold
+1010,Efua Badu,27,active,Ghana,740.55,2026-04-24,Bronze
+1011,Kwame Adu,30,active,Ghana,500.0,2026-04-26,New
+1012,Maame Serwaa,24,pending,Ghana,250.0,2026-04-26,New
