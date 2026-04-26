@@ -55,9 +55,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/YOUR_USERNAME/dift"
-Repository = "https://github.com/YOUR_USERNAME/dift"
-Issues = "https://github.com/YOUR_USERNAME/dift/issues"
+Homepage = "https://github.com/reginald-erzoah/dift"
+Repository = "https://github.com/reginald-erzoah/dift"
+Issues = "https://github.com/reginald-erzoah/dift/issues"
 
 [project.scripts]
 dift = "dift.cli:app"
