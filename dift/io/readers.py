@@ -4,7 +4,6 @@ from pathlib import Path
 
 import polars as pl
 
-
 SUPPORTED_EXTENSIONS = {".csv", ".parquet"}
 
 

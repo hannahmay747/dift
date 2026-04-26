@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 from enum import Enum
-from typing import Optional
 
 import typer
 from rich.console import Console
@@ -23,9 +22,9 @@ class ReportFormat(str, Enum):
 def main(
     old_dataset: str = typer.Argument(..., help="Path to the old dataset."),
     new_dataset: str = typer.Argument(..., help="Path to the new dataset."),
-    key: Optional[str] = typer.Option(None, "--key", "-k", help="Primary key column for row comparison."),
+    key: str | None = typer.Option(None, "--key", "-k", help="Primary key column for row comparison."),
     report: ReportFormat = typer.Option(ReportFormat.console, "--report", "-r", help="Report format."),
-    output: Optional[str] = typer.Option(None, "--output", "-o", help="Write report to a file."),
+    output: str | None = typer.Option(None, "--output", "-o", help="Write report to a file."),
 ) -> None:
     """Compare two datasets and explain what changed."""
     try:
