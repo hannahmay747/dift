@@ -8,6 +8,21 @@ Dift is an open-source CLI tool that helps data professionals compare two datase
 - why it matters  
 - whether the new data is safe to trust  
 
+## Install Anywhere (Windows / Mac / Linux)
+
+```bash
+pip install dift-cli
+```
+
+Then run:
+
+```bash
+dift --help
+```
+
+Install package name: dift-cli  
+Command name: dift
+
 ---
 
 ## Why Dift?
