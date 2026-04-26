@@ -1,15 +1,35 @@
 # Contributing to Dift
 
-Thanks for your interest in contributing to Dift.
+Thanks for your interest in contributing to **Dift**.
+
+We welcome thoughtful contributions that improve the project for real users.
+
+## Our Goal
+
+Dift is an open-source tool for comparing datasets and building trust in data changes.
+
+We value contributions that improve usability, reliability, performance, documentation clarity, test coverage, and developer experience.
 
 ## Ways to Contribute
 
-- Report bugs
-- Suggest features
-- Improve docs
+### Code
+- Bug fixes
+- New comparison features
+- Performance improvements
+- File format support
+- Better CLI UX
+- Better reports
+
+### Documentation
+- Improve README clarity
+- Add examples
+- Improve installation guides
+- Fix incorrect docs
+
+### Quality
 - Add tests
-- Improve performance
-- Add connectors and integrations
+- Improve CI workflows
+- Refactor maintainable code
 
 ## Development Setup
 
@@ -17,66 +37,33 @@ Thanks for your interest in contributing to Dift.
 python -m venv .venv
 source .venv/Scripts/activate
 pip install -r requirements.txt
-```
-
-Run tests:
-
-```bash
+pip install -e .
 pytest
-```
-
-Lint:
-
-```bash
 ruff check .
 ```
 
-## Branching
+## Spam / Low-Value Pull Requests Policy
 
-Create a feature branch:
+The following pull requests may be closed without merge:
 
-```bash
-git checkout -b feature/my-change
-```
+- whitespace-only changes
+- empty formatting edits
+- punctuation-only changes with no value
+- unrelated drive-by edits
+- automated changes without context
+- AI-generated PRs with no verification
+- duplicate pull requests
+- issue farming / contribution farming
+- no-op changes
 
-## Commit Style
+## Pull Request Requirements
 
-Use clear commit messages:
-
-```text
-feat: add parquet schema diff
-fix: handle null numeric columns
-Docs: improve installation steps
-```
-
-## Pull Requests
-
-Please include:
+Please explain:
 
 - What changed
 - Why it changed
-- Screenshots/output if relevant
-- Tests added or updated
+- How it was tested
 
-## Code Guidelines
+## Thank You
 
-- Keep functions small and readable
-- Add type hints where practical
-- Add tests for new behavior
-- Prefer performance-conscious implementations
-- Preserve backward compatibility when possible
-
-## Good First Issues
-
-- Improve CLI UX
-n- Add HTML report template
-- Add more fixtures in examples/
-- Improve error messages
-- Add benchmarks
-
-## Community
-
-Be respectful, constructive, and helpful.
-
-We welcome contributors of all skill levels.
-
+Meaningful contributions help make Dift the standard open-source dataset diff tool.
