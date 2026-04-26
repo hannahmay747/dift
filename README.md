@@ -58,8 +58,8 @@ Compare two datasets in seconds
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dift.git
-cd dift
+git clone https://github.com/ReginaldErzoah/Dift.git
+cd Dift
 ```
 
 ### Create Virtual Environment
