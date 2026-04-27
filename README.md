@@ -251,28 +251,65 @@ ruff check .
 
 ## Roadmap
 
-### v0.1.2
+### v0.2.0
 
 - Better console formatting
 - Rich colors
 - Cleaner summary tables
-- JSON improvements
-- More example datasets
+- JSON support & examples datasets
+- More supports & example datasets
 
-### v0.2.0
+## v0.3.0 — Report exports
+
+- Add HTML report export
+- Add CSV summary export
+- Add Excel report export
+- Improve JSON report structure
+- Add report templates
+- Add --output-dir
+
+## v0.4.0
+
+- Improve null spike detection
+- Improve duplicate detection
+
+## v0.5.0
+
+- Add outlier detection
+- Add numeric drift thresholds
+- Add categorical shift warnings
+- Improve risk scoring
+
+### v0.6.0
 
 - SQL database support
 - Postgres connector
+
+### v0.7.0
+
 - Snowflake connector
 - BigQuery connector
 
-### v0.5
+### v0.8.0
 
 - CI/CD fail checks
 - dbt integration
+
+### v0.9.0
 - Drift alerts
 - Python API
 - Plugin system
+
+
+## v1.0.0 - Stable release
+
+- Stable CLI
+- Stable Python API
+- Full test coverage
+- Full docs site
+- Benchmarks
+- Security review
+- Production ready install
 
 ---
 
