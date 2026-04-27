@@ -3,16 +3,6 @@
   <img src="assets/dift-logo.png" width="400" alt="Dift Logo">
 </p>
 
-<p align="left">
-Compare datasets. Detect changes. Trust your data.
-</p>
-
-<p align="left">
-  <code>pip install dift-cli</code>
-</p>
-
-> **Git diff for datasets.**
-
 Dift is an open-source CLI tool that helps data professionals compare two datasets and instantly understand:
 
 - what changed  
